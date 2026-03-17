@@ -1,8 +1,4 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/areas-served/[county]/page": "app/areas-served/[county]/page.js",
-  "/services/page": "app/services/page.js",
-  "/services/irrigation-installation/page": "app/services/irrigation-installation/page.js"
+  "/review/page": "app/review/page.js"
 }
