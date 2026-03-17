@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -22,8 +23,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="site-header">
           <div className="header-inner">
             <Link href="/" className="logo">
-              <span className="logo-mark">◍</span>
-              <span className="logo-text">Atlanta Irrigation</span>
+              <Image
+                src="/atlanta-irrigation-logo.png"
+                alt="Atlanta Irrigation"
+                width={320}
+                height={80}
+                priority
+              />
             </Link>
             <nav className="site-nav">
               <Link href="/services">Services</Link>
@@ -39,8 +45,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="site-footer">
           <div className="footer-inner">
             <div className="footer-brand">
-              <span className="logo-mark">◍</span>
-              <span className="logo-text">Atlanta Irrigation</span>
+              <Image
+                src="/atlanta-irrigation-logo.png"
+                alt="Atlanta Irrigation"
+                width={320}
+                height={60}
+                style={{ width: "auto", height: 120 }}
+                priority
+              />
               <p>Locally owned. Licensed &amp; insured.<br />Metro Atlanta, GA.</p>
             </div>
             <div className="footer-links">

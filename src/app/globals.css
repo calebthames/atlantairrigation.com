@@ -103,6 +103,11 @@ p { color: var(--text); }
   text-decoration: none;
   color: var(--cream);
 }
+.logo img {
+  height: 120px;
+  width: auto;
+  display: block;
+}
 .logo-mark {
   font-size: 1.4rem;
   color: var(--green-light);
