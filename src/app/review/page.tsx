@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: 'Review Atlanta Irrigation on Google',
     description: 'Takes 60 seconds — we really appreciate it!',
-    images: ['/review-card.png'],
+    images: ['https://www.atlantairrigation.com/review-card.png'],
   },
 }
 
