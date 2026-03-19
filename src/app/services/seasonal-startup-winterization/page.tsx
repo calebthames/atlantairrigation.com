@@ -14,7 +14,7 @@ const seasonalSchema = {
   provider: {
     "@type": "LocalBusiness",
     name: "Atlanta Irrigation",
-    telephone: "+17703159814",
+    telephone: "+17702495417",
     address: {
       "@type": "PostalAddress",
       streetAddress: "516 McDonough Road",
@@ -48,8 +48,8 @@ export default function SeasonalStartupPage() {
             Spring activation done right. Fall shutdown that actually protects your system.
           </p>
           <div className="hero-ctas">
-            <a href="tel:+17703159814" className="btn-primary">
-              Call (770) 315-9814
+            <a href="tel:+17702495417" className="btn-primary">
+              Call (770) 249-5417
             </a>
             <Link href="/contact" className="btn-secondary">
               Schedule Service
@@ -165,7 +165,7 @@ export default function SeasonalStartupPage() {
             <div className="sidebar-card">
               <h3>Schedule Seasonal Service</h3>
               <p>Spring and fall scheduling fills quickly. Call early to secure your preferred window.</p>
-              <a href="tel:+17703159814" className="btn-primary">Call (770) 315-9814</a>
+              <a href="tel:+17702495417" className="btn-primary">Call (770) 249-5417</a>
               <Link href="/contact" className="btn-secondary" style={{ marginTop: "12px" }}>
                 Request Online
               </Link>
@@ -228,7 +228,7 @@ export default function SeasonalStartupPage() {
           <h2>Ready to Schedule Seasonal Service?</h2>
           <p>Spring and fall windows fill up. Call early to get your preferred date.</p>
           <div className="cta-btns">
-            <a href="tel:+17703159814" className="btn-primary">Call (770) 315-9814</a>
+            <a href="tel:+17702495417" className="btn-primary">Call (770) 249-5417</a>
             <Link href="/contact" className="btn-secondary">Schedule Online</Link>
           </div>
         </div>

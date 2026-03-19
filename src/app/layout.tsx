@@ -35,7 +35,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/services">Services</Link>
               <Link href="/areas-served">Areas Served</Link>
               <Link href="/contact">Contact</Link>
-              <a href="tel:+17703159814" className="nav-phone">(770) 315-9814</a>
+              <a href="tel:+17702495417" className="nav-phone">(770) 249-5417</a>
             </nav>
           </div>
         </header>
@@ -79,7 +79,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
             <div className="footer-contact">
               <strong>Contact</strong>
-              <a href="tel:+17703159814">(770) 315-9814</a>
+              <a href="tel:+17702495417">(770) 249-5417</a>
               <a href="mailto:info@atlantairrigation.com">info@atlantairrigation.com</a>
               <Link href="/contact">Free Estimate</Link>
             </div>

@@ -12,7 +12,7 @@ const localBusinessSchema = {
   "@type": "LocalBusiness",
   name: "Atlanta Irrigation",
   url: "https://atlantairrigation.com",
-  telephone: "+17703159814",
+  telephone: "+17702495417",
   email: "info@atlantairrigation.com",
   address: {
     "@type": "PostalAddress",
@@ -137,7 +137,7 @@ export default function HomePage() {
             across metro Atlanta. Locally owned. Licensed. Free estimates.
           </p>
           <div className="hero-ctas">
-            <a href="tel:+17703159814" className="btn-primary">Call (770) 315-9814</a>
+            <a href="tel:+17702495417" className="btn-primary">Call (770) 249-5417</a>
             <Link href="/contact" className="btn-secondary">Get a Free Estimate</Link>
           </div>
         </div>
@@ -259,7 +259,7 @@ export default function HomePage() {
           <h2>Ready to Get Started?</h2>
           <p>Free estimates for installation. Same-week scheduling for most repair calls.</p>
           <div className="cta-btns">
-            <a href="tel:+17703159814" className="btn-primary">Call (770) 315-9814</a>
+            <a href="tel:+17702495417" className="btn-primary">Call (770) 249-5417</a>
             <Link href="/contact" className="btn-secondary">Request an Estimate Online</Link>
           </div>
         </div>

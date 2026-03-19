@@ -87,7 +87,7 @@ export default function ServicesPage() {
           <h2>Not Sure What You Need?</h2>
           <p>Call us and describe what's going on. We'll point you in the right direction — no pressure.</p>
           <div className="cta-btns">
-            <a href="tel:+17703159814" className="btn-primary">Call (770) 315-9814</a>
+            <a href="tel:+17702495417" className="btn-primary">Call (770) 249-5417</a>
             <Link href="/contact" className="btn-secondary">Request Online</Link>
           </div>
         </div>

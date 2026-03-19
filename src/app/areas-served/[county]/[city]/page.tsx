@@ -32,7 +32,7 @@ export default function CityPage({ params }: Props) {
     "@type": "LocalBusiness",
     name: "Atlanta Irrigation",
     url: "https://atlantairrigation.com",
-    telephone: "+17703159814",
+    telephone: "+17702495417",
     address: {
       "@type": "PostalAddress",
       addressRegion: "GA",
@@ -88,7 +88,7 @@ export default function CityPage({ params }: Props) {
           </nav>
           <h1>{city.h1}</h1>
           <div className="hero-ctas">
-            <a href="tel:+17703159814" className="btn-primary">Call (770) 315-9814</a>
+            <a href="tel:+17702495417" className="btn-primary">Call (770) 249-5417</a>
             <Link href="/contact" className="btn-secondary">Free Estimate</Link>
           </div>
         </div>
@@ -185,7 +185,7 @@ export default function CityPage({ params }: Props) {
           <h2>Get a Free Irrigation Estimate in {city.name}</h2>
           <p>Same-week scheduling for most repair calls. Free on-site estimates for new installation.</p>
           <div className="cta-btns">
-            <a href="tel:+17703159814" className="btn-primary">Call (770) 315-9814</a>
+            <a href="tel:+17702495417" className="btn-primary">Call (770) 249-5417</a>
             <Link href="/contact" className="btn-secondary">Request Online</Link>
           </div>
         </div>

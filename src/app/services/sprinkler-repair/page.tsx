@@ -14,7 +14,7 @@ const repairSchema = {
   provider: {
     "@type": "LocalBusiness",
     name: "Atlanta Irrigation",
-    telephone: "+17703159814",
+    telephone: "+17702495417",
     address: {
       "@type": "PostalAddress",
       streetAddress: "516 McDonough Road",
@@ -48,8 +48,8 @@ export default function SprinklerRepairPage() {
             Accurate diagnosis. Same-day repairs on most calls. No guesswork, no upselling.
           </p>
           <div className="hero-ctas">
-            <a href="tel:+17703159814" className="btn-primary">
-              Call (770) 315-9814
+            <a href="tel:+17702495417" className="btn-primary">
+              Call (770) 249-5417
             </a>
             <Link href="/contact" className="btn-secondary">
               Schedule a Repair
@@ -186,7 +186,7 @@ export default function SprinklerRepairPage() {
             <div className="sidebar-card">
               <h3>Schedule a Repair</h3>
               <p>Same-week scheduling on most repair calls. Same-day repairs on most diagnostics.</p>
-              <a href="tel:+17703159814" className="btn-primary">Call (770) 315-9814</a>
+              <a href="tel:+17702495417" className="btn-primary">Call (770) 249-5417</a>
               <Link href="/contact" className="btn-secondary" style={{ marginTop: "12px" }}>
                 Request Online
               </Link>
@@ -251,7 +251,7 @@ export default function SprinklerRepairPage() {
           <h2>Something Wrong With Your System?</h2>
           <p>Same-week scheduling. Most repairs completed same day as the diagnostic.</p>
           <div className="cta-btns">
-            <a href="tel:+17703159814" className="btn-primary">Call (770) 315-9814</a>
+            <a href="tel:+17702495417" className="btn-primary">Call (770) 249-5417</a>
             <Link href="/contact" className="btn-secondary">Schedule Online</Link>
           </div>
         </div>

@@ -14,7 +14,7 @@ const installSchema = {
   provider: {
     "@type": "LocalBusiness",
     name: "Atlanta Irrigation",
-    telephone: "+17703159814",
+    telephone: "+17702495417",
     address: {
       "@type": "PostalAddress",
       streetAddress: "516 McDonough Road",
@@ -48,8 +48,8 @@ export default function IrrigationInstallationPage() {
             Designed for your property. Built to last. No templates, no shortcuts.
           </p>
           <div className="hero-ctas">
-            <a href="tel:+17703159814" className="btn-primary">
-              Call (770) 315-9814
+            <a href="tel:+17702495417" className="btn-primary">
+              Call (770) 249-5417
             </a>
             <Link href="/contact" className="btn-secondary">
               Free Estimate
@@ -138,7 +138,7 @@ export default function IrrigationInstallationPage() {
             <div className="sidebar-card">
               <h3>Get a Free Estimate</h3>
               <p>Free on-site estimates for all new installation. Most properties assessed within 48 hours.</p>
-              <a href="tel:+17703159814" className="btn-primary">Call (770) 315-9814</a>
+              <a href="tel:+17702495417" className="btn-primary">Call (770) 249-5417</a>
               <Link href="/contact" className="btn-secondary" style={{ marginTop: "12px" }}>
                 Request Online
               </Link>
@@ -201,7 +201,7 @@ export default function IrrigationInstallationPage() {
           <h2>Ready to Install? Let's Talk.</h2>
           <p>Free on-site estimates. Most properties assessed within 48 hours of your call.</p>
           <div className="cta-btns">
-            <a href="tel:+17703159814" className="btn-primary">Call (770) 315-9814</a>
+            <a href="tel:+17702495417" className="btn-primary">Call (770) 249-5417</a>
             <Link href="/contact" className="btn-secondary">Request an Estimate Online</Link>
           </div>
         </div>

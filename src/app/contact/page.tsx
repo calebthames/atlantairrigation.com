@@ -20,7 +20,7 @@ export default function ContactPage() {
             <h2>Get in Touch</h2>
             <div className="contact-item">
               <strong>Phone</strong>
-              <a href="tel:+17703159814">(770) 315-9814</a>
+              <a href="tel:+17702495417">(770) 249-5417</a>
             </div>
             <div className="contact-item">
               <strong>Email</strong>
