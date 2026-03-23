@@ -82,6 +82,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <a href="tel:+17702495417">(770) 249-5417</a>
               <a href="mailto:info@atlantairrigation.com">info@atlantairrigation.com</a>
               <Link href="/contact">Free Estimate</Link>
+              <p className="footer-address">
+                516 McDonough Road, Fayetteville, GA 30214
+              </p>
             </div>
           </div>
           <div className="footer-bottom">
