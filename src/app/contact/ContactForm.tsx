@@ -1,10 +1,12 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-type SubmitState = "idle" | "submitting" | "success" | "error";
+type SubmitState = "idle" | "submitting" | "error";
 
 export function ContactForm() {
+  const router = useRouter();
   const [status, setStatus] = useState<SubmitState>("idle");
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
@@ -38,8 +40,8 @@ export function ContactForm() {
         return;
       }
 
-      setStatus("success");
       form.reset();
+      router.push("/contact/thank-you");
     } catch {
       setErrorMessage("Network error. Please check your connection or call (770) 249-5417.");
       setStatus("error");
@@ -48,11 +50,6 @@ export function ContactForm() {
 
   return (
     <>
-      {status === "success" && (
-        <p className="contact-form-feedback contact-form-feedback--success" role="status">
-          Thanks — we received your request and will get back to you soon.
-        </p>
-      )}
       {status === "error" && errorMessage && (
         <p className="contact-form-feedback contact-form-feedback--error" role="alert">
           {errorMessage}
