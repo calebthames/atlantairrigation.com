@@ -1,3 +1,5 @@
+import { ContactForm } from "./ContactForm";
+
 export const metadata = {
   title: "Contact Atlanta Irrigation | Free Estimates Metro Atlanta GA",
   description:
@@ -38,39 +40,7 @@ export default function ContactPage() {
 
           <div className="contact-form-block">
             <h2>Request a Free Estimate</h2>
-            <form className="contact-form" action="/api/contact" method="POST">
-              <label>
-                Name
-                <input type="text" name="name" required placeholder="Your name" />
-              </label>
-              <label>
-                Phone
-                <input type="tel" name="phone" required placeholder="(770) 000-0000" />
-              </label>
-              <label>
-                Email
-                <input type="email" name="email" placeholder="you@email.com" />
-              </label>
-              <label>
-                City / Neighborhood
-                <input type="text" name="city" placeholder="e.g. Peachtree City" />
-              </label>
-              <label>
-                What do you need?
-                <select name="service">
-                  <option value="">Select a service</option>
-                  <option value="installation">New Irrigation Installation</option>
-                  <option value="repair">Sprinkler Repair</option>
-                  <option value="seasonal">Seasonal Startup or Winterization</option>
-                  <option value="other">Not sure / Other</option>
-                </select>
-              </label>
-              <label>
-                Additional Details
-                <textarea name="message" rows={4} placeholder="Anything else we should know about your property or issue" />
-              </label>
-              <button type="submit" className="btn-primary">Send Request</button>
-            </form>
+            <ContactForm />
           </div>
         </div>
       </section>
