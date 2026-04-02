@@ -8,6 +8,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: base, lastModified: new Date(), changeFrequency: "monthly", priority: 1 },
     { url: `${base}/areas-served`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/contact`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.6 },
+    { url: `${base}/services`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/services/irrigation-installation`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/services/sprinkler-repair`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/services/seasonal-startup-winterization`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
   ];
 
   const countyRoutes: MetadataRoute.Sitemap = counties.map((county) => ({
