@@ -24,8 +24,8 @@ export default function ContactThankYouPage() {
 
           <p className={styles.body}>
             We will be in touch shortly. If you need to reach us sooner, call{" "}
-            <a href="tel:+17702495417" className={styles.phone}>
-              (770) 249-5417
+            <a href="tel:+17702207288" className={styles.phone}>
+              (770) 220-7288
             </a>
             .
           </p>

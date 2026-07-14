@@ -43,7 +43,7 @@ export function ContactForm() {
       form.reset();
       router.push("/contact/thank-you");
     } catch {
-      setErrorMessage("Network error. Please check your connection or call (770) 249-5417.");
+      setErrorMessage("Network error. Please check your connection or call (770) 220-7288.");
       setStatus("error");
     }
   }

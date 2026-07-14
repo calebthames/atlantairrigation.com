@@ -29,7 +29,7 @@ export default function CountyPage({ params }: Props) {
     "@type": "LocalBusiness",
     name: "Atlanta Irrigation",
     url: "https://atlantairrigation.com",
-    telephone: "+17702495417",
+    telephone: "+17702207288",
     areaServed: {
       "@type": "AdministrativeArea",
       name: county.name,
@@ -79,7 +79,7 @@ export default function CountyPage({ params }: Props) {
             <h2>Get a Free Estimate in {county.name}</h2>
             <p>Same-week scheduling for most repair calls. Free on-site estimates for new installation.</p>
             <div className="cta-btns">
-              <a href="tel:+17702495417" className="btn-primary">Call (770) 249-5417</a>
+              <a href="tel:+17702207288" className="btn-primary">Call (770) 220-7288</a>
               <Link href="/contact" className="btn-secondary">Request Online</Link>
             </div>
           </div>
